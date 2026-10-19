@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expenses</title>
+  </head>
+  <body>
+    <form action="api/add_expense.php" method="post">
+      <label>Category</label>
+      <select name="category">
+        <option value="">Pick Bro</option>
+      </select>
+      <br />
+      <label>Amount</label>
+      <input type="number" name="anount" />
+      <br />
+      <label>Description</label>
+      <input type="text" name="desc" />
+      <br />
+      <label>Expense Date</label>
+      <input type="date" name="exp-date" />
+      <br />
+      <input type="submit" />
+    </form>
+
+    <table>
+      <tr>
+        <td></td>
+      </tr>
+    </table>
+  </body>
+</html>
