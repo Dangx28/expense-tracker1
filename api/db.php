@@ -1,6 +1,6 @@
 <?php
 $host = "localhost";
-$dbname = "expense_db";   // your database name
+$dbname = "expenses_db";   // your database name
 $user = "root";                // XAMPP default
 $pass = "";                    // XAMPP default is empty
 

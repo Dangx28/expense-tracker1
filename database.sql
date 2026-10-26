@@ -14,7 +14,7 @@ CREATE TABLE IF NOT EXISTS expenses(
     amount DECIMAL(10,2),
     description VARCHAR(255),
     category_id INT,
-    FOREIGN KEY category_id REFERENCES categories(id),
+    FOREIGN KEY (category_id) REFERENCES categories(id),
     expense_date DATE,
-    created_at TIMESTAMP DEFAULT(CURRENT_TIME)
+    created_at TIMESTAMP DEFAULT(CURRENT_TIMESTAMP)
 )
