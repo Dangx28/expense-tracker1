@@ -9,7 +9,7 @@
     <form action="api/add_expense.php" method="post">
       <label>Category</label>
       <select name="category">
-        <option value="1">Pick Bro</option>
+        <option value="">Pick Bro</option>
       </select>
       <br />
       <label>Amount</label>
@@ -41,9 +41,5 @@
     <script src="js/api.js"></script>
     <script src="js/ui.js"></script>
     <script src="js/app.js"></script>
-    <script>
-      const button = document.getElementById("load_button");
-      button.addEventListener("click", showExpenses);
-    </script>
   </body>
 </html>

@@ -1,5 +1,4 @@
-async function showExpenses() {
-  const expenses = await getExpenses();
+async function showExpenses(expenses) {
   const table = document.getElementById("expense_tb");
   table.innerHTML = "";
   expenses.forEach((c, i, a) => {
